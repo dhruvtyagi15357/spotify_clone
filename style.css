@@ -38,20 +38,47 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 23px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .bottom{
     position: sticky;
-    height: 130px;
+    height: 80px;
     background-color: black;
+    color: white;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #myProgressBar{
     width: 80vw;
 }
 
+.icons{
+    margin-top: 20px;
+    
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+
+}
+/* .songItem img{
+
+} */
