@@ -67,6 +67,7 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
+    cursor:pointer;
 }
 
 .icons{
@@ -77,8 +78,36 @@ nav ul li{
 .songItem{
     height: 50px;
     display: flex;
-
+    background-color: white;
+    /* width: 80%; */
+    color: black;
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 0 10px;
 }
-/* .songItem img{
+.songItem img{
+    height: 50px;
+    margin: 0 -10px;
+    border-radius: 34px;
+}
 
-} */
+.timeStamp i{
+   cursor:pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Philosopher', sans-serif;
+}
+.songInfo img{
+    width: 40px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
